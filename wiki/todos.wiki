@@ -1,0 +1,18 @@
+#summary To do's
+
+= Introduction =
+
+To do's
+
+
+= Details =
+
+Add support for multiple lights 
+
+Add a sphere primitive (at the very least)
+
+Make an OBJ importer
+
+Add wireframe mode
+
+Add examples
