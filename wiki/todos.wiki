@@ -1,11 +1,6 @@
 #summary To do's
 
-= Introduction =
-
-To do's
-
-
-= Details =
+= To do's =
 
 Add support for multiple lights 
 
