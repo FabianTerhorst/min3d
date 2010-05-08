@@ -5,7 +5,7 @@
 
 *2010/05/07*
 
-  * Scene now resets onSurfaceCreate (i.e., not only on startup, but when Activity resumes after losing focus
+  * Scene now resets onSurfaceCreate (i.e., not only on startup, but when Activity resumes after losing focus)
 
   * Misc changes to API.
 
