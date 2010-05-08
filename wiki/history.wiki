@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary History of changes (SVN and otherwise)
 
 = History of changes =
 
