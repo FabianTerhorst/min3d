@@ -5,12 +5,12 @@
 
 *2010/05/07*
 
-Scene now resets onSurfaceCreate (i.e., not only on startup, but when Activity resumes after losing focus
+  * Scene now resets onSurfaceCreate (i.e., not only on startup, but when Activity resumes after losing focus
 
-Misc changes to API.
+  * Misc changes to API.
 
-Committed a fairly complete sample project of framework usage examples to SVN in /trunk/sampleProjects/min3dSampleProject1. Could be fairly useful. Added executable apk file of it to Downloads.
+  * Committed a fairly complete sample project of framework usage examples to SVN in /trunk/sampleProjects/min3dSampleProject1. Could be fairly useful. Added executable apk file of it to Downloads.
 
 *2010/05/05*
 
-First commit.
+  * First commit.
