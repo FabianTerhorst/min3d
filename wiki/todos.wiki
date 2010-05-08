@@ -9,5 +9,3 @@ Add a sphere primitive (at the very least)
 Make an OBJ importer
 
 Add wireframe mode
-
-Add examples
