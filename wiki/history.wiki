@@ -5,18 +5,18 @@
 *2010/05/11*
 
   * Added Multi-texture support, including customizable glTexEnvx() parameters, necessitating change to the API in terms of Object3d setup. See updated sample project for usage details.
-    # Bitmaps must now be added through the new "TextureManager" before textures can be assigned to Object3d's.
-    # Added "TextureVo" class, which contains texture-related properties.
+    # Bitmaps must now be added through the new TextureManager before textures can be assigned to Object3d's.
+    # Added TextureVo class, which contains texture-related properties.
     # Object3d's now contain a textures() list, to which TextureVo's are added.
-    # For now, multiple textures used by an Object3d are limited to using the same "UvBufferList" (U/V texture coordinates list). To allow separate textures to use separate texture coordinate lists will require some unfortunate structural changes and changes to the API.
+    # For now, multiple textures used by an Object3d are limited to using the same UvBufferList (U/V texture coordinates list). To allow separate textures to use separate texture coordinate lists will require some unfortunate structural changes and changes to the API.
 
-  * "sampleProject1" has a new example demonstrating the multi-texture feature. Project has been refactored for the above changes. 
+  * sampleProject1 has a new example demonstrating the multi-texture feature. Project has been refactored for the above changes. 
 
   * Current featureset seems to work as consistently on Android v1.5 emulator as on Nexus One hardware running Android v2.1.
 	
-  * Fixed spelling of "frustum" and "vertices" throughout project. Any class names and identifiers using the incorrect spelling of these two words have been changed.
+  * Fixed spelling of frustum and vertices throughout project. Any class names and identifiers using the incorrect spelling of these two words have been changed.
 
-  * "VertexInfo" class has been renamed "MeshData"
+  * VertexInfo class has been renamed MeshData
 
 
 *2010/05/07*
