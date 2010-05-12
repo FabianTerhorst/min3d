@@ -2,10 +2,12 @@
 
 = To do's =
 
+3D file format importers
+
 Add support for multiple lights 
 
-Add a sphere primitive (at the very least)
+Add support for multiple texture coordinate buffers, color buffers
 
-Make an OBJ importer
+Add support for GL_LINES, etc.
 
-Add wireframe mode
+Add more texture properties to TextureVo
