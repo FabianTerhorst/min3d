@@ -25,7 +25,7 @@
 
   * Misc changes to API, not too major. Other adjustments to plumbing.
 
-  * Committed a fairly complete sample project of framework usage examples to SVN in /trunk/sampleProjects/min3dSampleProject1. Could be fairly useful. Added executable apk file of it to Downloads.
+  * Committed a fairly complete sample project of framework usage examples to SVN in /trunk/sampleProjects/min3dSampleProject1. Could be fairly useful. Added executable apk file of it to Downloads. 
 
 *2010/05/05*
 
