@@ -5,7 +5,9 @@
 *2010/05/14*
 
   * Added new properties on TextureVo -- offsetU, offsetV, repeatU, and repeatV.
+
   * Updated Renderer accordingly.
+
   * Added two examples to sampleProject1 demonstrating.
 
 *2010/05/11*
