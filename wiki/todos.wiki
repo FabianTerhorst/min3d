@@ -9,5 +9,3 @@ Add support for multiple lights
 Add support for multiple texture coordinate buffers, color buffers
 
 Add support for GL_LINES, etc.
-
-Add more texture properties to TextureVo
