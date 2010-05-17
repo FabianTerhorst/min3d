@@ -4,7 +4,7 @@
 
 *2010/05/16*
 
-  * ** Added min3d.parser.* package, and OBJ importer. **
+  * *Added min3d.parser package, and OBJ importer.*
 
   * Added ExampleLoadObjFile Activity to sampleProject1
 
@@ -33,7 +33,7 @@
 
 *2010/05/11*
 
-  * Added Multi-texture support, including customizable glTexEnvx() parameters, necessitating change to the API in terms of Object3d setup. See updated sample project for usage details.
+  * Added multi-texture support, including customizable glTexEnvx() parameters, necessitating change to the API in terms of Object3d setup. See updated sample project for usage details.
     # Bitmaps must now be added through the new TextureManager before textures can be assigned to Object3d's.
     # Added TextureVo class, which contains texture-related properties.
     # Object3d's now contain a textures() list, to which TextureVo's are added.
