@@ -2,6 +2,27 @@
 
 = History of changes =
 
+*2010/05/16*
+
+  * ** Added min3d.parser.* package, and OBJ importer. **
+
+  * Added ExampleLoadObjFile Activity to sampleProject1
+
+  * Added RenderType "LINES", for line drawing
+
+  * Added properties "lineWidth", "lineSmoothing", and "pointSmoothing" to Object3d.
+
+  * Changed rendering behavior of Rendertype.POINTS to draw using faces list by default, rather than using glDrawArrays.
+
+  * Replaced/added sampleProject1 example "ExampleRenderType.java" accordingly.
+
+  * Added Object3d property "ignoreFaces", which will ignore the faces list and render using the points (vertices) list instead (ie, using glDrawArrays instead of glDrawElements).
+
+  * Added static class "RenderCaps" describing the hardware's OpenGL capabilities relevant to the library.
+
+  * Added tesselation params to min3d.objectPrimitives.Rectangle; need to do same for Box.
+
+
 *2010/05/14*
 
   * Added new properties on TextureVo -- offsetU, offsetV, repeatU, and repeatV.

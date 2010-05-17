@@ -2,10 +2,6 @@
 
 = To do's =
 
-3D file format importers
+3D file format importers (ongoing)
 
 Add support for multiple lights 
-
-Add support for multiple texture coordinate buffers, color buffers
-
-Add support for GL_LINES, etc.
