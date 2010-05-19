@@ -1,0 +1,4 @@
+#labels Featured,Phase-Implementation
+How to load multiple objects from one .obj file
+
+http://www.rozengain.com/blog/2010/05/18/loading-multiple-3d-objects-from-an-obj-file-min3d-for-android/
