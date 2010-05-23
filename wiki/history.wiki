@@ -14,8 +14,11 @@
 *2010/05/19*
 
   * Added 3DS parser.
+
   * Added multiple-objects support to OBJ parser. 
+
   * Added examples to sample project.
+
   * Bug fixes in parser package.
 
   
