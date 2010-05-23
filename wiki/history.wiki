@@ -2,6 +2,23 @@
 
 = History of changes =
 
+*2010/05/23*
+
+  * Added alternate constructors to Object3D and Vertices with three new arguments that determine whether vertex information will be added for texture coordinates, normals, and colors, respectively. It's useful to set these to false, when appropriate, to minimize memory usage and increase performance.
+
+  * Added example Activity "ExampleVerticesVariations" to sample project.
+
+  * Renamed "MeshData" class to "Vertices" (sorry about that).
+
+  
+*2010/05/19*
+
+  * Added 3DS parser.
+  * Added multiple-objects support to OBJ parser. 
+  * Added examples to sample project.
+  * Bug fixes in parser package.
+
+  
 *2010/05/16*
 
   * *Added min3d.parser package, and OBJ importer.*
