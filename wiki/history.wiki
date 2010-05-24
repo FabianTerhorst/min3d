@@ -10,6 +10,7 @@
 
   * Renamed "MeshData" class to "Vertices" (sorry about that).
 
+  * In sample project, updated all textures dimensions to 256x256 or 512x512. Amazingly, non-standard dimensions worked fine on N1 until Froyo update.
   
 *2010/05/19*
 
