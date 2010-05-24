@@ -4,6 +4,10 @@
 
 *2010/05/23*
 
+  * Added example to sample project demonstrating how to add 3d to a normal Android layout
+
+*2010/05/23*
+
   * Added alternate constructors to Object3D and Vertices with three new arguments that determine whether vertex information will be added for texture coordinates, normals, and colors, respectively. It's useful to set these to false, when appropriate, to minimize memory usage and increase performance.
 
   * Added example Activity "ExampleVerticesVariations" to sample project.
