@@ -2,6 +2,10 @@
 
 = History of changes =
 
+*2010/05/24*
+
+  * *Added animated MD2 parser*, plus example in the sample project
+
 *2010/05/23*
 
   * Added example to sample project demonstrating how to add 3d to a normal Android layout
@@ -18,9 +22,9 @@
   
 *2010/05/19*
 
-  * Added 3DS parser.
+  * *Added 3DS parser*
 
-  * Added multiple-objects support to OBJ parser. 
+  * *Added multiple-objects support to OBJ parser.*
 
   * Added examples to sample project.
 
