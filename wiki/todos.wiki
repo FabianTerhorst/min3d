@@ -12,4 +12,4 @@ Support for sprites. Text?
 
 More/improved object primitive generator classes
 
-A more fleshed-out example project
+A fleshed-out demo/showcase project
