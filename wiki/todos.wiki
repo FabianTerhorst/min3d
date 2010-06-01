@@ -4,4 +4,12 @@
 
 3D file format importers (ongoing)
 
-Add support for multiple lights 
+Support for multiple lights 
+
+Matrix/math classes to support object picking, raycasting, etc.
+
+Support for sprites. Text?
+
+More/improved object primitive generator classes
+
+A more fleshed-out example project
