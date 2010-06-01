@@ -2,6 +2,10 @@
 
 = History of changes =
 
+*2010/06/01*
+
+  * Minor: Added long-press functionality to sample Project list view to be able to view source.
+
 *2010/05/31*
 
   * Added MIP mapping option for TextureManager textures. This has necessitated adding an extra argument to TextureManager.addTextureId(). Also added mipmap argument to Parser-related constructors. Added example to sample project.
