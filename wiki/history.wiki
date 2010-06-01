@@ -2,6 +2,10 @@
 
 = History of changes =
 
+*2010/05/31*
+
+  * Added MIP mapping option for TextureManager textures. This has necessitated adding an extra argument to TextureManager.addTextureId(). Also added mipmap argument to Parser-related constructors. Added example to sample project.
+
 *2010/05/24*
 
   * *Added animated MD2 parser*, plus example in the sample project
