@@ -2,6 +2,10 @@
 
 = History of changes =
 
+*2010/06/03*
+
+  * Added multiple-light support thru ManagedLightList class. Plus property for directional versus positional light. Added multi-light example to sample project. IMPORTANT: Scene no longer supplies default light, so light must be added manually on scene setup.
+
 *2010/06/01*
 
   * Minor: Added long-press functionality to sample Project list view to be able to view source.
@@ -22,7 +26,7 @@
 
 *2010/05/23*
 
-  * Added alternate constructors to Object3D and Vertices with three new arguments that determine whether vertex information will be added for texture coordinates, normals, and colors, respectively. It's useful to set these to false, when appropriate, to minimize memory usage and increase performance.
+  * Added alternate constructors to Object3D and Vertices with three new arguments that determine whether vertex information will be added for texture coordinates, normals, and colors, respectively. It's useful to set these to false, when appropriate, to minimize memory usage and probably increase performance.
 
   * Added example Activity "ExampleVerticesVariations" to sample project.
 

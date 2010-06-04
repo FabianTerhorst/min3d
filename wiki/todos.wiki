@@ -4,7 +4,7 @@
 
 3D file format importers (ongoing)
 
-Support for multiple lights 
+More light properties (spot-related, attenuation, specular, emission)
 
 Matrix/math classes to support object picking, raycasting, etc.
 
