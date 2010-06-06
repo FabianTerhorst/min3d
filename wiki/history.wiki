@@ -2,9 +2,23 @@
 
 = History of changes =
 
+*2010/06/06*
+
+  * Added light attenuation properties.
+	
+  * Added emissive and specular properties to Lights, (These may not useful until emissive and specular properties are added at the Scene level. Not yet tested well.)
+
+  * Added colorMaterial Boolean property to Object3d. I had overlooked this property all this time, leading to the erroneous assumption that use of lighting and per-vertex colors were mutually exclusive (!).
+
+  * Added shadeModel property to Object3d (smooth, flat)
+	
+  * Rewrote 'dirty' flag pattern and 'managed' VO classes.
+	
+  * Renamed Object3d.colorsEnabled to "vertexColorsEnabled"to avoid confusion with newly added property "colorMaterialEnabled". ("vertexColorsEnabled" determines whether per-vertex color information is used whereas "colorMaterialEnabled" corresponds to GL_COLOR_MATERIAL)
+
 *2010/06/03*
 
-  * Added multiple-light support thru ManagedLightList class. Plus property for directional versus positional light. Added multi-light example to sample project. IMPORTANT: Scene no longer supplies default light, so light must be added manually on scene setup.
+  * Added multiple-light support thru ManagedLightList class. Plus property for directional versus positional light. Added multi-light example to sample project. IMPORTANT: Scene no longer supplies default light, so a light should be added manually on scene setup.
 
 *2010/06/01*
 
