@@ -2,6 +2,12 @@
 
 = History of changes =
 
+*2010/06/06b*
+
+  * Changed Light.type default to DIRECTIONAL instead of POSITIONAL to match OpenGL default.
+  
+  * Fixed or worked around rendering problem which only showed itself in emulator re: lights (ugh).
+
 *2010/06/06*
 
   * Added light attenuation properties.
