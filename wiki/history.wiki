@@ -2,6 +2,10 @@
 
 = History of changes =
 
+*2010/0714*
+
+  * License changed from GPL v3 to MIT to allow library to be used for commercial purposes.
+
 *2010/06/20*
 
   * MD2 keyframe animation example added to sample project.
