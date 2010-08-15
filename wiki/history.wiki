@@ -2,7 +2,13 @@
 
 = History of changes =
 
-*2010/0714*
+*2010/08/15*
+
+  * Added methods RendererActivity.onUpdateScene() and onUpdateScene() to allow for 3D manipulations from the UI thread.
+  
+  * A few minor changes: ManagedLightList.add() and remove() now return booleans (like ArrayList). Apologies for the API change.
+  
+*2010/07/14*
 
   * License changed from GPL v3 to MIT to allow library to be used for commercial purposes.
 
