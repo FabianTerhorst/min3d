@@ -2,6 +2,21 @@
 
 = History of changes =
 
+*2011/02/20*
+
+  * Light: Fixed important bug where Renderer was (stupidly) setting GL_SPOT_CUTOFF to hardcoded value of 45. That, in combination with LightType.DIRECTIONAL and the OpenGL default GL_SPOT_EXPONENT value of 0, led to objects seeming to arbitrarily turn off and on, which was the source of much confusion. This should, among other things, fix the non-lit scenes happening on some devices the "Hello Jupiter" and OBJ examples in min3dSampleProject1.
+		
+  * Added Light property "spotCutoff" (corresponding to GL_SPOT_CUTOFF). 
+		
+  * Added Light property "spotExponent", corresponding to GL_SPOT_EXPONENT.
+
+  * Fixed Object3dContainer.clone(); (thanks Wojciech Musialkiewicz)
+	
+  * min3dSampleProject1: Changed linked folder path in Eclipse project properties for min3d source to be relative instead of absolute. Importing project should workon any machine now, without needing to hand-edit the path first (sorry about that).
+
+  * min3dSampleProject1: Fixed layout to Keyframe animation example.
+
+
 *2010/08/15*
 
   * Added methods RendererActivity.onUpdateScene() and onUpdateScene() to allow for 3D manipulations from the UI thread.
