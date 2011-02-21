@@ -2,6 +2,11 @@
 
 = History of changes =
 
+*2011/02/21*
+
+  * Added example of setting up a transparent activity to the sample project, and added method RendererActivity.glSurfaceViewConfig().
+  
+
 *2011/02/20*
 
   * Light: Fixed important bug where Renderer was (stupidly) setting GL_SPOT_CUTOFF to hardcoded value of 45. That, in combination with LightType.DIRECTIONAL and the OpenGL default GL_SPOT_EXPONENT value of 0, led to objects seeming to arbitrarily turn off and on, which was the source of much confusion. This should, among other things, fix the non-lit scenes happening on some devices the "Hello Jupiter" and OBJ examples in min3dSampleProject1.
