@@ -4,6 +4,13 @@
 
 *2011/02/21*
 
+  * Added RendererActivity.renderContinuously() to allow for pausing and resuming the render loop.
+  
+  * SampleProject1 minSdkVersion changed to v1.6 to make it tablet-friendly.
+  
+
+*2011/02/21*
+
   * Added example of setting up a transparent activity to the sample project, and added method RendererActivity.glSurfaceViewConfig().
   
 
